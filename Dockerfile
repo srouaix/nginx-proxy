@@ -1,5 +1,5 @@
 FROM nginx:1.13
-LABEL maintainer="Jason Wilder mail@jasonwilder.com"
+LABEL maintainer="srouaix@ippon.fr"
 
 # Install wget and install/updates certificates
 RUN apt-get update \
